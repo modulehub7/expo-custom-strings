@@ -1,15 +1,27 @@
 {
   "name": "@modulehub/expo-custom-strings",
   "version": "1.0.0",
+  "author": "Manoj and Raswanth",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modulehub7/expo-custom-strings"
+  },
   "main": "app.plugin.js",
   "types": "build/withCustomStrings.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "files": ["app.plugin.js", "build", "README.md"],
+  "files": [
+    "app.plugin.js",
+    "build",
+    "README.md"
+  ],
   "license": "MIT",
-  "keywords": ["expo", "expo-config-plugin"],
+  "keywords": [
+    "expo",
+    "expo-config-plugin"
+  ],
   "peerDependencies": {
     "expo": "*"
   },
